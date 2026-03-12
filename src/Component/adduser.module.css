@@ -1,0 +1,132 @@
+/* ===== CONTACT / DISPLAY FORM ===== */
+
+#displaycnt{
+max-width:600px;
+width:90%;
+margin:5rem auto;
+padding:2.5rem;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+
+border-radius:20px;
+box-shadow:0 10px 35px rgba(0,0,0,0.4);
+
+border:1px solid rgba(255,255,255,0.15);
+}
+
+
+/* LABEL */
+
+#displaycnt label{
+display:block;
+margin-top:1rem;
+margin-bottom:6px;
+font-weight:600;
+font-size:15px;
+color:#ffffff;
+}
+
+
+/* INPUT FIELDS */
+
+#displaycnt input,
+#displaycnt textarea{
+
+width:100%;
+padding:12px 15px;
+
+border:none;
+outline:none;
+
+border-radius:12px;
+
+background:rgba(255,255,255,0.12);
+color:white;
+
+font-size:14px;
+
+transition:0.3s;
+}
+
+
+/* INPUT HOVER / FOCUS */
+
+#displaycnt input:focus,
+#displaycnt textarea:focus{
+
+background:rgba(255,255,255,0.2);
+box-shadow:0 0 10px rgba(0,255,200,0.4);
+}
+
+
+/* TEXTAREA */
+
+#displaycnt textarea{
+height:120px;
+resize:none;
+}
+
+
+/* BUTTON */
+
+#displaycnt button{
+
+width:100%;
+padding:12px;
+
+margin-top:1.5rem;
+
+border:none;
+border-radius:25px;
+
+background:linear-gradient(45deg,#00c9ff,#92fe9d);
+color:black;
+
+font-weight:600;
+font-size:15px;
+
+cursor:pointer;
+transition:0.3s;
+}
+
+
+/* BUTTON HOVER */
+
+#displaycnt button:hover{
+
+transform:translateY(-2px);
+box-shadow:0 6px 18px rgba(0,0,0,0.4);
+
+background:linear-gradient(45deg,#92fe9d,#00c9ff);
+}
+
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+#displaycnt{
+width:95%;
+padding:2rem;
+margin:3rem auto;
+}
+
+#displaycnt input,
+#displaycnt textarea{
+font-size:13px;
+}
+
+}
+
+@media(max-width:480px){
+
+#displaycnt{
+padding:1.5rem;
+}
+
+#displaycnt button{
+font-size:14px;
+}
+
+}

@@ -5,7 +5,7 @@ const Displayuser = () => {
   let [user,setUser]=useState([])
   let navigate= useNavigate()
   useEffect((e)=>{
-    axios.get("http://localhost:4000/users").then((e)=>{
+    axios.get("http://localhost:5000/users").then((e)=>{
     setUser(e.data)  
     })
   },[])

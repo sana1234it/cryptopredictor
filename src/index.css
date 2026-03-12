@@ -1,0 +1,276 @@
+/* ===== GLOBAL ===== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+min-height:100vh;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+
+/* ===== HEADER ===== */
+
+.header{
+height:60px;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 30px;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.left{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.right{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.right ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.ig{
+height:45px;
+width:45px;
+border-radius:50%;
+}
+
+
+/* ===== BUTTON ===== */
+
+button{
+padding:8px 18px;
+border:none;
+border-radius:25px;
+background:linear-gradient(45deg,#00c9ff,#92fe9d);
+color:black;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+box-shadow:0 4px 15px rgba(0,0,0,0.4);
+}
+
+
+/* ===== INPUT ===== */
+
+input{
+padding:8px 14px;
+border:none;
+border-radius:20px;
+width:220px;
+outline:none;
+}
+
+select{
+padding:8px;
+border-radius:20px;
+border:none;
+background:#111;
+color:white;
+}
+
+
+/* ===== SEARCH ===== */
+
+.search{
+width:100%;
+padding:20px;
+display:flex;
+justify-content:flex-end;
+}
+
+
+/* ===== TABLE ===== */
+
+.cryptoTable{
+width:95%;
+margin:auto;
+border-collapse:collapse;
+
+background:rgba(255,255,255,0.06);
+backdrop-filter:blur(10px);
+
+border-radius:10px;
+overflow:hidden;
+}
+
+.cryptoTable th{
+padding:15px;
+background:rgba(0,0,0,0.4);
+font-weight:600;
+}
+
+.cryptoTable td{
+padding:14px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+
+}
+
+.cryptoTable tr{
+transition:0.3s;
+
+}
+
+.cryptoTable tr:hover{
+background:rgba(255,255,255,0.1);
+transform:scale(1.01);
+cursor:pointer;
+}
+
+.cryptoTable img{
+height:40px;
+width:40px;
+border-radius:50%;
+}
+
+
+/* ===== VIEW PAGE ===== */
+
+.view-container{
+max-width:1000px;
+margin:50px auto;
+padding:40px;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+
+border-radius:20px;
+
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+.view-logo{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.view-logo img{
+width:220px;
+height:220px;
+border-radius:50%;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.view-content{
+flex:1;
+}
+
+.view-description h1{
+font-size:34px;
+margin-bottom:10px;
+}
+
+.symbol{
+color:#00ffc3;
+font-weight:bold;
+}
+
+.view-description p{
+line-height:1.6;
+margin-bottom:20px;
+}
+
+
+/* ===== CARD STATS ===== */
+
+.view-stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.stat-item{
+background:rgba(255,255,255,0.08);
+padding:18px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.stat-item:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.stat-item span{
+display:block;
+font-size:14px;
+color:#ccc;
+}
+
+.stat-item strong{
+font-size:20px;
+color:white;
+}
+
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:900px){
+
+.header{
+flex-direction:column;
+height:auto;
+padding:10px;
+gap:10px;
+}
+
+.right{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+input{
+width:160px;
+}
+
+.cryptoTable{
+font-size:14px;
+}
+
+}
+
+@media(max-width:600px){
+
+.view-container{
+flex-direction:column;
+text-align:center;
+}
+
+.view-logo img{
+width:170px;
+height:170px;
+}
+
+.cryptoTable th,
+.cryptoTable td{
+padding:8px;
+}
+
+}

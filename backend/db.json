@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "73a3",
+      "name": "sana",
+      "email": "support@gmail.com"
+    },
+    {
+      "id": "60b4e7ff-2276-4e6b-b63a-c4b62527a121",
+      "name": "sana yadav",
+      "email": "skvyadav29@gmail.com"
+    },
+    {
+      "id": "44ff3752-de12-4562-8a62-e8191160b8aa",
+      "name": "anchal",
+      "email": "anchal@gmail.com"
+    },
+    {
+      "id": "bcbb1d41-5364-4744-933b-8e1849f7f351",
+      "name": "anchal",
+      "email": "anchal@gmail.com"
+    },
+    {
+      "id": "58a577a0-2b49-4947-aa08-a2b2cc3874fa",
+      "name": "anchal",
+      "email": "anchal@gmail.com"
+    },
+    {
+      "id": "f8304f82-9269-41fa-ad5c-facaa729e8db",
+      "name": "ravita",
+      "email": "ravitayadav@gmail.com"
+    },
+    {
+      "id": "bbb5027b-a026-4036-a57c-b87327ccb09f",
+      "name": "saru",
+      "email": "sanayadav1232022@gmail.com"
+    },
+    {
+      "id": "32c68779-d8a9-464d-b5a3-3cbd108808e8",
+      "name": "",
+      "email": ""
+    },
+    {
+      "id": "332d92c6-f65a-437b-b56c-0d56b72e004d",
+      "name": "saru",
+      "email": "support@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

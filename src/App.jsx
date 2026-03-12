@@ -2,8 +2,6 @@
 import Cryptodata from './Component/Cryptodata'
 import Header from './Component/Header'
 import DisplayCrypto from './Component/DisplayCrypto'
-import Contextu from './Component/Contextu'
-import User from './Component/User'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Viewmore from './Component/Viewmore'
 import Errorboundry from './Component/Errorboundry'

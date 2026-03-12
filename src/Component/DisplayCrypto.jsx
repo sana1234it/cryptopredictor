@@ -37,7 +37,7 @@ const DisplayCrypto = () => {
                     return(
                         <tr>
                             <td>{index+1}</td>
-                            <td>{val.id}</td>
+                            <td>{val.name}</td>
                             <td> <img src={val.image} alt=''/></td>
                             <td>{all_data.symbol} {val.current_price}</td>
                             <td>{val.market_cap}</td>
